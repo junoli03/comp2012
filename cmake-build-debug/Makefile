@@ -117,41 +117,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named playground
+# Target rules for targets named main
 
 # Build rule for target.
-playground: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
-.PHONY : playground
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-playground/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-.PHONY : playground/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-playground.o: playground.cpp.o
-.PHONY : playground.o
+Lab/Lab1/lab1_skeleton/main.o: Lab/Lab1/lab1_skeleton/main.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/main.o
 
 # target to build an object file
-playground.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.o
-.PHONY : playground.cpp.o
+Lab/Lab1/lab1_skeleton/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.o
 
-playground.i: playground.cpp.i
-.PHONY : playground.i
+Lab/Lab1/lab1_skeleton/main.i: Lab/Lab1/lab1_skeleton/main.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/main.i
 
 # target to preprocess a source file
-playground.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.i
-.PHONY : playground.cpp.i
+Lab/Lab1/lab1_skeleton/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.i
 
-playground.s: playground.cpp.s
-.PHONY : playground.s
+Lab/Lab1/lab1_skeleton/main.s: Lab/Lab1/lab1_skeleton/main.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/main.s
 
 # target to generate assembly for a file
-playground.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.s
-.PHONY : playground.cpp.s
+Lab/Lab1/lab1_skeleton/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.s
+
+Lab/Lab1/lab1_skeleton/student.o: Lab/Lab1/lab1_skeleton/student.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/student.o
+
+# target to build an object file
+Lab/Lab1/lab1_skeleton/student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.o
+
+Lab/Lab1/lab1_skeleton/student.i: Lab/Lab1/lab1_skeleton/student.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/student.i
+
+# target to preprocess a source file
+Lab/Lab1/lab1_skeleton/student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.i
+
+Lab/Lab1/lab1_skeleton/student.s: Lab/Lab1/lab1_skeleton/student.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/student.s
+
+# target to generate assembly for a file
+Lab/Lab1/lab1_skeleton/student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.s
+
+Lab/Lab1/lab1_skeleton/studentlist.o: Lab/Lab1/lab1_skeleton/studentlist.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.o
+
+# target to build an object file
+Lab/Lab1/lab1_skeleton/studentlist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.o
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.o
+
+Lab/Lab1/lab1_skeleton/studentlist.i: Lab/Lab1/lab1_skeleton/studentlist.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.i
+
+# target to preprocess a source file
+Lab/Lab1/lab1_skeleton/studentlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.i
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.i
+
+Lab/Lab1/lab1_skeleton/studentlist.s: Lab/Lab1/lab1_skeleton/studentlist.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.s
+
+# target to generate assembly for a file
+Lab/Lab1/lab1_skeleton/studentlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.s
+.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.s
 
 # Help Target
 help:
@@ -161,10 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... playground"
-	@echo "... playground.o"
-	@echo "... playground.i"
-	@echo "... playground.s"
+	@echo "... main"
+	@echo "... Lab/Lab1/lab1_skeleton/main.o"
+	@echo "... Lab/Lab1/lab1_skeleton/main.i"
+	@echo "... Lab/Lab1/lab1_skeleton/main.s"
+	@echo "... Lab/Lab1/lab1_skeleton/student.o"
+	@echo "... Lab/Lab1/lab1_skeleton/student.i"
+	@echo "... Lab/Lab1/lab1_skeleton/student.s"
+	@echo "... Lab/Lab1/lab1_skeleton/studentlist.o"
+	@echo "... Lab/Lab1/lab1_skeleton/studentlist.i"
+	@echo "... Lab/Lab1/lab1_skeleton/studentlist.s"
 .PHONY : help
 
 
