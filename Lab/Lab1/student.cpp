@@ -33,6 +33,7 @@ Student::Student(const string& name, int SID, const string& department, int year
 // TODO 3: Implement Student mutator function.
 void Student::setGrade(const CourseGrade& grade) {
     // TODO
+    this->grade = grade;
 }
 
 // TODO 4: Implement Student accesor functions.
