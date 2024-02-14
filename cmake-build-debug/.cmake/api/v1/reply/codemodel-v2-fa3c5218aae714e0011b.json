@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "playground::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-playground-Debug-1716207eaa87f1601e06.json",
+					"jsonFile" : "target-playground-Debug-5143ee5bb065f37a4a03.json",
 					"name" : "playground",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug",
-		"source" : "C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012"
+		"build" : "/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug",
+		"source" : "/Users/Juno/Documents/GitHub/comp2012"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 4
 	}
 }
