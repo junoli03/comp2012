@@ -5,7 +5,7 @@
 // i.e. total = LAB_PERCENTAGE * labs + ...
 double CourseGrade::getTotalPercentage() const {
     // TODO
-    return 0;
+    return labs * LAB_PERCENTAGE + assignments * ASGN_PERCENTAGE + midtermExam * MIDTERM_PERCENTAGE + finalExam * FINAL_PERCENTAGE;
 }
 
 // Default constructor is given
@@ -22,6 +22,12 @@ Student::Student() {
 // while 'grade' is initialized to 0 similar to default constructor.
 Student::Student(const string& name, int SID, const string& department, int year) {
     // TODO
+    this->name = name;
+    SID = SID;
+    this->department = department;
+    year = year;
+    grade = {0, 0, 0, 0};
+
 }
 
 // TODO 3: Implement Student mutator function.

@@ -41,37 +41,49 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target playground
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for playground
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_playground: phony || CMakeFiles/playground.dir
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/playground.dir/playground.cpp.obj: CXX_COMPILER__playground_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/playground.cpp || cmake_object_order_depends_target_playground
-  DEP_FILE = CMakeFiles\playground.dir\playground.cpp.obj.d
+build CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/lab1_skeleton/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\playground.dir
-  OBJECT_FILE_DIR = CMakeFiles\playground.dir
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton
+
+build CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/lab1_skeleton/student.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton\student.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton
+
+build CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/lab1_skeleton/studentlist.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton\studentlist.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1\lab1_skeleton
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target playground
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the executable playground.exe
+# Link the executable main.exe
 
-build playground.exe: CXX_EXECUTABLE_LINKER__playground_Debug CMakeFiles/playground.dir/playground.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.obj CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.obj CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\playground.dir
+  OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = playground.exe
-  TARGET_IMPLIB = libplayground.dll.a
-  TARGET_PDB = playground.exe.dbg
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
 
 
 #############################################
@@ -99,7 +111,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build playground: phony playground.exe
+build main: phony main.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +121,7 @@ build playground: phony playground.exe
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony playground.exe
+build all: phony main.exe
 
 # =============================================================================
 # Built-in targets
