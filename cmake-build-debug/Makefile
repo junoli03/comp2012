@@ -117,89 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named person
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+person: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 person
+.PHONY : person
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+person/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/build
+.PHONY : person/fast
 
-Lab/Lab1/lab1_skeleton/main.o: Lab/Lab1/lab1_skeleton/main.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/main.o
-
-# target to build an object file
-Lab/Lab1/lab1_skeleton/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.o
-
-Lab/Lab1/lab1_skeleton/main.i: Lab/Lab1/lab1_skeleton/main.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/main.i
-
-# target to preprocess a source file
-Lab/Lab1/lab1_skeleton/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.i
-
-Lab/Lab1/lab1_skeleton/main.s: Lab/Lab1/lab1_skeleton/main.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/main.s
-
-# target to generate assembly for a file
-Lab/Lab1/lab1_skeleton/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/main.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/main.cpp.s
-
-Lab/Lab1/lab1_skeleton/student.o: Lab/Lab1/lab1_skeleton/student.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/student.o
+Review/person_family/family.o: Review/person_family/family.cpp.o
+.PHONY : Review/person_family/family.o
 
 # target to build an object file
-Lab/Lab1/lab1_skeleton/student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.o
+Review/person_family/family.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.o
+.PHONY : Review/person_family/family.cpp.o
 
-Lab/Lab1/lab1_skeleton/student.i: Lab/Lab1/lab1_skeleton/student.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/student.i
+Review/person_family/family.i: Review/person_family/family.cpp.i
+.PHONY : Review/person_family/family.i
 
 # target to preprocess a source file
-Lab/Lab1/lab1_skeleton/student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.i
+Review/person_family/family.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.i
+.PHONY : Review/person_family/family.cpp.i
 
-Lab/Lab1/lab1_skeleton/student.s: Lab/Lab1/lab1_skeleton/student.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/student.s
+Review/person_family/family.s: Review/person_family/family.cpp.s
+.PHONY : Review/person_family/family.s
 
 # target to generate assembly for a file
-Lab/Lab1/lab1_skeleton/student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/student.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/student.cpp.s
+Review/person_family/family.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.s
+.PHONY : Review/person_family/family.cpp.s
 
-Lab/Lab1/lab1_skeleton/studentlist.o: Lab/Lab1/lab1_skeleton/studentlist.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.o
+Review/person_family/person.o: Review/person_family/person.cpp.o
+.PHONY : Review/person_family/person.o
 
 # target to build an object file
-Lab/Lab1/lab1_skeleton/studentlist.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.o
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.o
+Review/person_family/person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.o
+.PHONY : Review/person_family/person.cpp.o
 
-Lab/Lab1/lab1_skeleton/studentlist.i: Lab/Lab1/lab1_skeleton/studentlist.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.i
+Review/person_family/person.i: Review/person_family/person.cpp.i
+.PHONY : Review/person_family/person.i
 
 # target to preprocess a source file
-Lab/Lab1/lab1_skeleton/studentlist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.i
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.i
+Review/person_family/person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.i
+.PHONY : Review/person_family/person.cpp.i
 
-Lab/Lab1/lab1_skeleton/studentlist.s: Lab/Lab1/lab1_skeleton/studentlist.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.s
+Review/person_family/person.s: Review/person_family/person.cpp.s
+.PHONY : Review/person_family/person.s
 
 # target to generate assembly for a file
-Lab/Lab1/lab1_skeleton/studentlist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Lab/Lab1/lab1_skeleton/studentlist.cpp.s
-.PHONY : Lab/Lab1/lab1_skeleton/studentlist.cpp.s
+Review/person_family/person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.s
+.PHONY : Review/person_family/person.cpp.s
 
 # Help Target
 help:
@@ -209,16 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... Lab/Lab1/lab1_skeleton/main.o"
-	@echo "... Lab/Lab1/lab1_skeleton/main.i"
-	@echo "... Lab/Lab1/lab1_skeleton/main.s"
-	@echo "... Lab/Lab1/lab1_skeleton/student.o"
-	@echo "... Lab/Lab1/lab1_skeleton/student.i"
-	@echo "... Lab/Lab1/lab1_skeleton/student.s"
-	@echo "... Lab/Lab1/lab1_skeleton/studentlist.o"
-	@echo "... Lab/Lab1/lab1_skeleton/studentlist.i"
-	@echo "... Lab/Lab1/lab1_skeleton/studentlist.s"
+	@echo "... person"
+	@echo "... Review/person_family/family.o"
+	@echo "... Review/person_family/family.i"
+	@echo "... Review/person_family/family.s"
+	@echo "... Review/person_family/person.o"
+	@echo "... Review/person_family/person.i"
+	@echo "... Review/person_family/person.s"
 .PHONY : help
 
 

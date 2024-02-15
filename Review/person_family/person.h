@@ -2,13 +2,9 @@
 // Created by Juno on 14/2/2024.
 //
 
-#ifndef COMP2012_PERSON_H
-#define COMP2012_PERSON_H
+#include <iostream>
+using namespace std;
 
-#endif //COMP2012_PERSON_H
-
-#include <iostream> using namespace std;
-/* File: person.h */
 class Person
 {
 private:
