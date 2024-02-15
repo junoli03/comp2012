@@ -41,56 +41,48 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target person
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for person
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_person: phony || CMakeFiles/person.dir
 
-build CMakeFiles/main.dir/Lab/Lab1/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\main.cpp.obj.d
+build CMakeFiles/person.dir/Review/person_family/person.cpp.obj: CXX_COMPILER__person_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Review/person_family/person.cpp || cmake_object_order_depends_target_person
+  DEP_FILE = CMakeFiles\person.dir\Review\person_family\person.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = main.pdb
+  OBJECT_DIR = CMakeFiles\person.dir
+  OBJECT_FILE_DIR = CMakeFiles\person.dir\Review\person_family
+  TARGET_COMPILE_PDB = CMakeFiles\person.dir\
+  TARGET_PDB = person.pdb
 
-build CMakeFiles/main.dir/Lab/Lab1/student.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/student.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\student.cpp.obj.d
+build CMakeFiles/person.dir/Review/person_family/family.cpp.obj: CXX_COMPILER__person_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Review/person_family/family.cpp || cmake_object_order_depends_target_person
+  DEP_FILE = CMakeFiles\person.dir\Review\person_family\family.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = main.pdb
-
-build CMakeFiles/main.dir/Lab/Lab1/studentlist.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab1/studentlist.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\Lab\Lab1\studentlist.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\Lab\Lab1
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = main.pdb
+  OBJECT_DIR = CMakeFiles\person.dir
+  OBJECT_FILE_DIR = CMakeFiles\person.dir\Review\person_family
+  TARGET_COMPILE_PDB = CMakeFiles\person.dir\
+  TARGET_PDB = person.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target person
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable person.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/Lab/Lab1/main.cpp.obj CMakeFiles/main.dir/Lab/Lab1/student.cpp.obj CMakeFiles/main.dir/Lab/Lab1/studentlist.cpp.obj
+build person.exe: CXX_EXECUTABLE_LINKER__person_Debug CMakeFiles/person.dir/Review/person_family/person.cpp.obj CMakeFiles/person.dir/Review/person_family/family.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\person.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\person.dir\
+  TARGET_FILE = person.exe
+  TARGET_IMPLIB = libperson.dll.a
+  TARGET_PDB = person.pdb
 
 
 #############################################
@@ -118,7 +110,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main: phony main.exe
+build person: phony person.exe
 
 # =============================================================================
 # Folder targets.
@@ -128,7 +120,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony main.exe
+build all: phony person.exe
 
 # =============================================================================
 # Built-in targets
