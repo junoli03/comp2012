@@ -5,8 +5,8 @@
 // i.e. total = LAB_PERCENTAGE * labs + ...
 double CourseGrade::getTotalPercentage() const {
     // TODO
-    double total = labs * LAB_PERCENTAGE + assignments * ASGN_PERCENTAGE + midtermExam * MIDTERM_PERCENTAGE + finalExam * FINAL_PERCENTAGE;
-    return total;
+    return labs * LAB_PERCENTAGE + assignments * ASGN_PERCENTAGE + midtermExam * MIDTERM_PERCENTAGE + finalExam * FINAL_PERCENTAGE;
+
 }
 
 // Default constructor is given
