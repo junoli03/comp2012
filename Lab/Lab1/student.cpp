@@ -5,7 +5,8 @@
 // i.e. total = LAB_PERCENTAGE * labs + ...
 double CourseGrade::getTotalPercentage() const {
     // TODO
-    return labs * LAB_PERCENTAGE + assignments * ASGN_PERCENTAGE + midtermExam * MIDTERM_PERCENTAGE + finalExam * FINAL_PERCENTAGE;
+    double total = labs * LAB_PERCENTAGE + assignments * ASGN_PERCENTAGE + midtermExam * MIDTERM_PERCENTAGE + finalExam * FINAL_PERCENTAGE;
+    return total;
 }
 
 // Default constructor is given
@@ -23,10 +24,10 @@ Student::Student() {
 Student::Student(const string& name, int SID, const string& department, int year) {
     // TODO
     this->name = name;
-    SID = SID;
+    this->SID = SID;
     this->department = department;
-    year = year;
-    grade = {0, 0, 0, 0};
+    this->year = year;
+    this->grade = {0, 0, 0, 0};
 
 }
 
@@ -39,20 +40,26 @@ void Student::setGrade(const CourseGrade& grade) {
 // TODO 4: Implement Student accesor functions.
 string Student::getName() const { 
     // TODO
+    return this->name;
 }
 
 int Student::getSID() const { 
     // TODO
+    return this->SID;
 }
 
 string Student::getDepartment() const { 
     // TODO
+    return this->department;
 }
 
 int Student::getYear() const { 
     // TODO
+    return this->year;
 }
 
 double Student::getTotalPercentage() const { 
     // TODO
+    return grade.getTotalPercentage();
+
 }

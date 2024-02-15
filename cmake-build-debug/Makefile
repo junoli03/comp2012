@@ -117,65 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named person
+# Target rules for targets named playground
 
 # Build rule for target.
-person: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 person
-.PHONY : person
+playground: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
+.PHONY : playground
 
 # fast build rule for target.
-person/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/build
-.PHONY : person/fast
+playground/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
+.PHONY : playground/fast
 
-Review/person_family/family.o: Review/person_family/family.cpp.o
-.PHONY : Review/person_family/family.o
-
-# target to build an object file
-Review/person_family/family.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.o
-.PHONY : Review/person_family/family.cpp.o
-
-Review/person_family/family.i: Review/person_family/family.cpp.i
-.PHONY : Review/person_family/family.i
-
-# target to preprocess a source file
-Review/person_family/family.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.i
-.PHONY : Review/person_family/family.cpp.i
-
-Review/person_family/family.s: Review/person_family/family.cpp.s
-.PHONY : Review/person_family/family.s
-
-# target to generate assembly for a file
-Review/person_family/family.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/family.cpp.s
-.PHONY : Review/person_family/family.cpp.s
-
-Review/person_family/person.o: Review/person_family/person.cpp.o
-.PHONY : Review/person_family/person.o
+playground.o: playground.cpp.o
+.PHONY : playground.o
 
 # target to build an object file
-Review/person_family/person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.o
-.PHONY : Review/person_family/person.cpp.o
+playground.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.o
+.PHONY : playground.cpp.o
 
-Review/person_family/person.i: Review/person_family/person.cpp.i
-.PHONY : Review/person_family/person.i
+playground.i: playground.cpp.i
+.PHONY : playground.i
 
 # target to preprocess a source file
-Review/person_family/person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.i
-.PHONY : Review/person_family/person.cpp.i
+playground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.i
+.PHONY : playground.cpp.i
 
-Review/person_family/person.s: Review/person_family/person.cpp.s
-.PHONY : Review/person_family/person.s
+playground.s: playground.cpp.s
+.PHONY : playground.s
 
 # target to generate assembly for a file
-Review/person_family/person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/person.dir/build.make CMakeFiles/person.dir/Review/person_family/person.cpp.s
-.PHONY : Review/person_family/person.cpp.s
+playground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.s
+.PHONY : playground.cpp.s
 
 # Help Target
 help:
@@ -185,13 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... person"
-	@echo "... Review/person_family/family.o"
-	@echo "... Review/person_family/family.i"
-	@echo "... Review/person_family/family.s"
-	@echo "... Review/person_family/person.o"
-	@echo "... Review/person_family/person.i"
-	@echo "... Review/person_family/person.s"
+	@echo "... playground"
+	@echo "... playground.o"
+	@echo "... playground.i"
+	@echo "... playground.s"
 .PHONY : help
 
 

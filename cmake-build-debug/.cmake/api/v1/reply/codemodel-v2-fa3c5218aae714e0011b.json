@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "person::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-person-Debug-af1e81326630cd976b98.json",
-					"name" : "person",
+					"id" : "playground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-playground-Debug-5143ee5bb065f37a4a03.json",
+					"name" : "playground",
 					"projectIndex" : 0
 				}
 			]
