@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/playground.dir/all
+all: CMakeFiles/conversion_constructor.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/playground.dir/clean
+clean: CMakeFiles/conversion_constructor.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/playground.dir
+# Target rules for target CMakeFiles/conversion_constructor.dir
 
 # All Build rule for target.
-CMakeFiles/playground.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target playground"
-.PHONY : CMakeFiles/playground.dir/all
+CMakeFiles/conversion_constructor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target conversion_constructor"
+.PHONY : CMakeFiles/conversion_constructor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/playground.dir/rule: cmake_check_build_system
+CMakeFiles/conversion_constructor.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/playground.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/conversion_constructor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/playground.dir/rule
+.PHONY : CMakeFiles/conversion_constructor.dir/rule
 
 # Convenience name for target.
-playground: CMakeFiles/playground.dir/rule
-.PHONY : playground
+conversion_constructor: CMakeFiles/conversion_constructor.dir/rule
+.PHONY : conversion_constructor
 
 # clean rule for target.
-CMakeFiles/playground.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/clean
-.PHONY : CMakeFiles/playground.dir/clean
+CMakeFiles/conversion_constructor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/clean
+.PHONY : CMakeFiles/conversion_constructor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
