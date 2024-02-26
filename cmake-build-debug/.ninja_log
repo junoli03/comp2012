@@ -1,9 +1,7 @@
 # ninja log v5
-0	253	7305416332751772	build.ninja	b5b4e4fab03ff70
-2	172	7301234708169393	CMakeFiles/main.dir/Lab/Lab1/main.cpp.obj	f148c21b2ca9dde2
-0	162	7301234708067802	CMakeFiles/main.dir/Lab/Lab1/student.cpp.obj	1e41c65065d4cbce
+0	253	7306508405223694	build.ninja	b5b4e4fab03ff70
 228	414	7301232960284511	playground.exe	436dcbafdebd3a67
-4	174	7301234708196433	CMakeFiles/main.dir/Lab/Lab1/studentlist.cpp.obj	a4e46d90649e6e77
 174	235	7301234708776582	main.exe	225dc64e688e9b35
-0	226	7301232958444002	CMakeFiles/playground.dir/playground.cpp.obj	ec491dc3d97df6a5
-3	228	7305416389750983	CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.obj	13fa912149f80b54
+0	160	7306508437890897	CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.obj	13fa912149f80b54
+4	162	7306508437910902	CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.obj	6cf8670f6054cda2
+162	229	7306508438560898	lab2.exe	3b632fd15b2248f0

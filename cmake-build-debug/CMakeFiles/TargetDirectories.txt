@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/CMakeFiles/lab2.dir
 C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-=======
-/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles/lab2.dir
-/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles/rebuild_cache.dir
->>>>>>> f7b524efc1c43eed41b584312e2687714488cea0
