@@ -117,41 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named conversion_constructor
+# Target rules for targets named lab2
 
 # Build rule for target.
-conversion_constructor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conversion_constructor
-.PHONY : conversion_constructor
+lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2
+.PHONY : lab2
 
 # fast build rule for target.
-conversion_constructor/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/build
-.PHONY : conversion_constructor/fast
+lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
+.PHONY : lab2/fast
 
-Construction_destruction/conversion_constructor.o: Construction_destruction/conversion_constructor.cpp.o
-.PHONY : Construction_destruction/conversion_constructor.o
+Lab/Lab2/library.o: Lab/Lab2/library.cpp.o
+.PHONY : Lab/Lab2/library.o
 
 # target to build an object file
-Construction_destruction/conversion_constructor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/Construction_destruction/conversion_constructor.cpp.o
-.PHONY : Construction_destruction/conversion_constructor.cpp.o
+Lab/Lab2/library.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.o
+.PHONY : Lab/Lab2/library.cpp.o
 
-Construction_destruction/conversion_constructor.i: Construction_destruction/conversion_constructor.cpp.i
-.PHONY : Construction_destruction/conversion_constructor.i
+Lab/Lab2/library.i: Lab/Lab2/library.cpp.i
+.PHONY : Lab/Lab2/library.i
 
 # target to preprocess a source file
-Construction_destruction/conversion_constructor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/Construction_destruction/conversion_constructor.cpp.i
-.PHONY : Construction_destruction/conversion_constructor.cpp.i
+Lab/Lab2/library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.i
+.PHONY : Lab/Lab2/library.cpp.i
 
-Construction_destruction/conversion_constructor.s: Construction_destruction/conversion_constructor.cpp.s
-.PHONY : Construction_destruction/conversion_constructor.s
+Lab/Lab2/library.s: Lab/Lab2/library.cpp.s
+.PHONY : Lab/Lab2/library.s
 
 # target to generate assembly for a file
-Construction_destruction/conversion_constructor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conversion_constructor.dir/build.make CMakeFiles/conversion_constructor.dir/Construction_destruction/conversion_constructor.cpp.s
-.PHONY : Construction_destruction/conversion_constructor.cpp.s
+Lab/Lab2/library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.s
+.PHONY : Lab/Lab2/library.cpp.s
+
+Lab/Lab2/main.o: Lab/Lab2/main.cpp.o
+.PHONY : Lab/Lab2/main.o
+
+# target to build an object file
+Lab/Lab2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.o
+.PHONY : Lab/Lab2/main.cpp.o
+
+Lab/Lab2/main.i: Lab/Lab2/main.cpp.i
+.PHONY : Lab/Lab2/main.i
+
+# target to preprocess a source file
+Lab/Lab2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.i
+.PHONY : Lab/Lab2/main.cpp.i
+
+Lab/Lab2/main.s: Lab/Lab2/main.cpp.s
+.PHONY : Lab/Lab2/main.s
+
+# target to generate assembly for a file
+Lab/Lab2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.s
+.PHONY : Lab/Lab2/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... conversion_constructor"
-	@echo "... Construction_destruction/conversion_constructor.o"
-	@echo "... Construction_destruction/conversion_constructor.i"
-	@echo "... Construction_destruction/conversion_constructor.s"
+	@echo "... lab2"
+	@echo "... Lab/Lab2/library.o"
+	@echo "... Lab/Lab2/library.i"
+	@echo "... Lab/Lab2/library.s"
+	@echo "... Lab/Lab2/main.o"
+	@echo "... Lab/Lab2/main.i"
+	@echo "... Lab/Lab2/main.s"
 .PHONY : help
 
 
