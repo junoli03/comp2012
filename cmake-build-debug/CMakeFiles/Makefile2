@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/playground.dir/all
+all: CMakeFiles/lab2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/playground.dir/clean
+clean: CMakeFiles/lab2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/playground.dir
+# Target rules for target CMakeFiles/lab2.dir
 
 # All Build rule for target.
-CMakeFiles/playground.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target playground"
-.PHONY : CMakeFiles/playground.dir/all
+CMakeFiles/lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target lab2"
+.PHONY : CMakeFiles/lab2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/playground.dir/all
+CMakeFiles/lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/playground.dir/rule
+.PHONY : CMakeFiles/lab2.dir/rule
 
 # Convenience name for target.
-playground: CMakeFiles/playground.dir/rule
-.PHONY : playground
+lab2: CMakeFiles/lab2.dir/rule
+.PHONY : lab2
 
 # clean rule for target.
-CMakeFiles/playground.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/clean
-.PHONY : CMakeFiles/playground.dir/clean
+CMakeFiles/lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/clean
+.PHONY : CMakeFiles/lab2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

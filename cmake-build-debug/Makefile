@@ -117,41 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named playground
+# Target rules for targets named lab2
 
 # Build rule for target.
-playground: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
-.PHONY : playground
+lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2
+.PHONY : lab2
 
 # fast build rule for target.
-playground/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-.PHONY : playground/fast
+lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
+.PHONY : lab2/fast
 
-playground.o: playground.cpp.o
-.PHONY : playground.o
+Lab/Lab2/library.o: Lab/Lab2/library.cpp.o
+.PHONY : Lab/Lab2/library.o
 
 # target to build an object file
-playground.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.o
-.PHONY : playground.cpp.o
+Lab/Lab2/library.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.o
+.PHONY : Lab/Lab2/library.cpp.o
 
-playground.i: playground.cpp.i
-.PHONY : playground.i
+Lab/Lab2/library.i: Lab/Lab2/library.cpp.i
+.PHONY : Lab/Lab2/library.i
 
 # target to preprocess a source file
-playground.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.i
-.PHONY : playground.cpp.i
+Lab/Lab2/library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.i
+.PHONY : Lab/Lab2/library.cpp.i
 
-playground.s: playground.cpp.s
-.PHONY : playground.s
+Lab/Lab2/library.s: Lab/Lab2/library.cpp.s
+.PHONY : Lab/Lab2/library.s
 
 # target to generate assembly for a file
-playground.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.s
-.PHONY : playground.cpp.s
+Lab/Lab2/library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.s
+.PHONY : Lab/Lab2/library.cpp.s
+
+Lab/Lab2/main.o: Lab/Lab2/main.cpp.o
+.PHONY : Lab/Lab2/main.o
+
+# target to build an object file
+Lab/Lab2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.o
+.PHONY : Lab/Lab2/main.cpp.o
+
+Lab/Lab2/main.i: Lab/Lab2/main.cpp.i
+.PHONY : Lab/Lab2/main.i
+
+# target to preprocess a source file
+Lab/Lab2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.i
+.PHONY : Lab/Lab2/main.cpp.i
+
+Lab/Lab2/main.s: Lab/Lab2/main.cpp.s
+.PHONY : Lab/Lab2/main.s
+
+# target to generate assembly for a file
+Lab/Lab2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.s
+.PHONY : Lab/Lab2/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... playground"
-	@echo "... playground.o"
-	@echo "... playground.i"
-	@echo "... playground.s"
+	@echo "... lab2"
+	@echo "... Lab/Lab2/library.o"
+	@echo "... Lab/Lab2/library.i"
+	@echo "... Lab/Lab2/library.s"
+	@echo "... Lab/Lab2/main.o"
+	@echo "... Lab/Lab2/main.i"
+	@echo "... Lab/Lab2/main.s"
 .PHONY : help
 
 
