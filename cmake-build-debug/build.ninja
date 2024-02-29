@@ -40,6 +40,39 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target p61
+
+
+#############################################
+# Order-only phony target for p61
+
+build cmake_object_order_depends_target_p61: phony || CMakeFiles/p61.dir
+
+build CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj: CXX_COMPILER__p61_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Construction_destruction/p61.cpp || cmake_object_order_depends_target_p61
+  DEP_FILE = CMakeFiles\p61.dir\Construction_destruction\p61.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\p61.dir
+  OBJECT_FILE_DIR = CMakeFiles\p61.dir\Construction_destruction
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p61
+
+
+#############################################
+# Link the executable p61.exe
+
+build p61.exe: CXX_EXECUTABLE_LINKER__p61_Debug CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p61.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = p61.exe
+  TARGET_IMPLIB = libp61.dll.a
+  TARGET_PDB = p61.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -66,6 +99,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build p61: phony p61.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -74,7 +109,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony
+build all: phony p61.exe
 
 # =============================================================================
 # Built-in targets
