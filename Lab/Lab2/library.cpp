@@ -43,17 +43,15 @@ void Bookcase::addBook(const char* name, const char* author, int publishYear) {
     }
 
     // TODO 5.2: add a new Book to the books array at index numBooks, then increment numBooks.
-    books[numBooks++] = new Book(name, author, publishYear);
-//    numBooks++;
+    books[numBooks] = new Book(name, author, publishYear);
+    numBooks++;
 
 }
 
 Library::Library(int sciCapacity, int hmnCapacity, int miscCapacity)
-
-//    : bookcases{sciCapacity, hmnCapacity, miscCapacity}
     : bookcases{Bookcase(sciCapacity),
-
-                {
+                Bookcase(hmnCapacity),
+                Bookcase(miscCapacity)} {
     // TODO 6: Library constructor
     // Hint: Bookcase has no default constructor. How to initialize bookcases?
 //    bookcases[SCIENCE] = Bookcase(sciCapacity);
