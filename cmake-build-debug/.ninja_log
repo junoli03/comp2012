@@ -1,9 +1,20 @@
 # ninja log v5
-0	253	7309303896229500	build.ninja	b5b4e4fab03ff70
-166	214	7309302763390342	playground.exe	436dcbafdebd3a67
+0	253	7311892128363572	build.ninja	b5b4e4fab03ff70
+257	444	7311757292125483	playground.exe	436dcbafdebd3a67
 170	216	7308884693066073	person.exe	57d689a0f235a0e3
 174	235	7301234708776582	main.exe	225dc64e688e9b35
-162	229	7306508438560898	lab2.exe	3b632fd15b2248f0
-1	165	7309302762925280	CMakeFiles/playground.dir/playground.cpp.obj	ec491dc3d97df6a5
-1	148	7309303919859357	CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj	6b84dc64af8d45b4
+7	245	7311761651649857	CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj	aaa0764479d3fd2f
 149	196	7309303920314412	p61.exe	56537e52905b2f28
+546	723	7311890617604057	lab3.exe	3e701ac2d341926a
+162	229	7306508438560898	lab2.exe	3b632fd15b2248f0
+0	255	7311757290260600	CMakeFiles/playground.dir/playground.cpp.obj	ec491dc3d97df6a5
+9	245	7311761651649857	CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj	cc964d6ab66c0879
+2	172	7311883060014082	CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj	bb5336ec408b9bd6
+5	254	7311761651754914	CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj	9b2d58975781a27b
+1	545	7311890615844060	CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj	971f7c9704ef1b5e
+7	164	7311892170382071	CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj	cc964d6ab66c0879
+9	168	7311892170392050	CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj	aaa0764479d3fd2f
+1	171	7311892170442056	CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj	bb5336ec408b9bd6
+6	172	7311892170472054	CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj	971f7c9704ef1b5e
+4	175	7311892170492065	CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj	9b2d58975781a27b
+176	231	7311892171017863	lab3.exe	3e701ac2d341926a
