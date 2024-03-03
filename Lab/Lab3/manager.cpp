@@ -11,6 +11,16 @@ MusicManager::MusicManager(int user_max, int singers_max, int songs_max) : user_
 
 MusicManager::~MusicManager() {
     // TODO 6: Build the destructors.
+    for (int i = 0; i < num_of_user; i++) {
+        delete user_list[i];
+    }
+    for (int i = 0; i < num_of_singers; i++) {
+        delete singer_list[i];
+    }
+    for (int i = 0; i < num_of_songs; i++) {
+        delete song_list[i];
+    }
+    
     cout << "MusicManager destructor" << endl;
 }
 
@@ -28,7 +38,6 @@ void MusicManager::createSong(const string& name, const string& singer_name) {
         }
     }
     song_list[num_of_songs++] = new Song(name, singer_list[found]);
-
 }
 
 void MusicManager::createPlaylist(const string& user_name) {

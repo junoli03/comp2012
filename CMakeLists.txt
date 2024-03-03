@@ -11,5 +11,5 @@ add_executable(playground playground.cpp)
 #add_executable(lab2 Lab/Lab2/library.cpp Lab/Lab2/main.cpp)
 #add_executable(p61 Construction_destruction/p61.cpp)
 add_executable(lab3 Lab/Lab3/main.cpp Lab/Lab3/manager.cpp Lab/Lab3/playlist.cpp Lab/Lab3/singer.cpp Lab/Lab3/song.cpp)
-add_executable(lab2 Lab/Lab2/library.cpp Lab/Lab2/main.cpp)
+#add_executable(lab2 Lab/Lab2/library.cpp Lab/Lab2/main.cpp)
 
