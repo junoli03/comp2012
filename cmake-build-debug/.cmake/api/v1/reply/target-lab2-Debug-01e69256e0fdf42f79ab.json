@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab2"
+			"path" : "lab2.exe"
+		},
+		{
+			"path" : "lab2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -35,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-g -std=gnu++11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -69,12 +69,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "lab2",
-	"nameOnDisk" : "lab2",
+	"nameOnDisk" : "lab2.exe",
 	"paths" : 
 	{
 		"build" : ".",
