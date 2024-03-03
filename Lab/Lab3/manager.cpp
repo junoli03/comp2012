@@ -1,7 +1,10 @@
 #include <iostream>
 #include "manager.h"
 
-MusicManager::MusicManager(int user_max, int singers_max, int songs_max) {
+MusicManager::MusicManager(int user_max, int singers_max, int songs_max) : user_capacity(user_max), singers_capacity(singers_max), songs_capacity(songs_max){
+    num_of_user = 0;
+    num_of_singers = 0;
+    num_of_songs = 0;
     // TODO 1: MusicManager constructor.
     cout << "MusicManager constructor" << endl;
 }
@@ -17,17 +20,31 @@ void MusicManager::createSinger(const string& name, const string& nationality) {
 
 void MusicManager::createSong(const string& name, const string& singer_name) {
     // TODO 2: Add a song into the MusicManager.
+    int found = 0;
+    for (int i = 0; i < num_of_singers; i++) {
+        if (singer_list[i]->getName() == singer_name) {
+            found = i;
+            break;
+        }
+    }
+    song_list[num_of_songs++] = new Song(name, singer_list[found]);
+
 }
 
 void MusicManager::createPlaylist(const string& user_name) {
     user_list[num_of_user++] = new PlayList(user_name, MAX_SIZE);
     cout << "[Creation] Playlist of " << user_name << endl;
     // Add a new user with the given name to your data structure
-    // (You can assume that the name is unique and the user list is not full.
+    // You can assume that the name is unique and the user list is not full.
 }
 
 void MusicManager::createPlaylistFromOther(const string& des_user_name, const string& src_user_name) {
     // TODO 5: Copy the playlist from your friend.
+    for (int i = 0; i < num_of_user; i++) {
+        if (user_list[i]->getUsername() == src_user_name) {
+            user_list[num_of_user++] = new PlayList(des_user_name, PlayList(src_user_name));
+        }
+    }
     cout << "[CopyCreation] Playlist of " << des_user_name << " (From:" << src_user_name << ")." << endl;
     return;
 }

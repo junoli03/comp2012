@@ -41,37 +41,94 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target p61
+# Object build statements for EXECUTABLE target playground
 
 
 #############################################
-# Order-only phony target for p61
+# Order-only phony target for playground
 
-build cmake_object_order_depends_target_p61: phony || CMakeFiles/p61.dir
+build cmake_object_order_depends_target_playground: phony || CMakeFiles/playground.dir
 
-build CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj: CXX_COMPILER__p61_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Construction_destruction/p61.cpp || cmake_object_order_depends_target_p61
-  DEP_FILE = CMakeFiles\p61.dir\Construction_destruction\p61.cpp.obj.d
+build CMakeFiles/playground.dir/playground.cpp.obj: CXX_COMPILER__playground_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/playground.cpp || cmake_object_order_depends_target_playground
+  DEP_FILE = CMakeFiles\playground.dir\playground.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\p61.dir
-  OBJECT_FILE_DIR = CMakeFiles\p61.dir\Construction_destruction
+  OBJECT_DIR = CMakeFiles\playground.dir
+  OBJECT_FILE_DIR = CMakeFiles\playground.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target p61
+# Link build statements for EXECUTABLE target playground
 
 
 #############################################
-# Link the executable p61.exe
+# Link the executable playground.exe
 
-build p61.exe: CXX_EXECUTABLE_LINKER__p61_Debug CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj
+build playground.exe: CXX_EXECUTABLE_LINKER__playground_Debug CMakeFiles/playground.dir/playground.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\p61.dir
+  OBJECT_DIR = CMakeFiles\playground.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = p61.exe
-  TARGET_IMPLIB = libp61.dll.a
-  TARGET_PDB = p61.exe.dbg
+  TARGET_FILE = playground.exe
+  TARGET_IMPLIB = libplayground.dll.a
+  TARGET_PDB = playground.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3
+
+
+#############################################
+# Order-only phony target for lab3
+
+build cmake_object_order_depends_target_lab3: phony || CMakeFiles/lab3.dir
+
+build CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab3/main.cpp || cmake_object_order_depends_target_lab3
+  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
+
+build CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab3/manager.cpp || cmake_object_order_depends_target_lab3
+  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\manager.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
+
+build CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab3/playlist.cpp || cmake_object_order_depends_target_lab3
+  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\playlist.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
+
+build CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab3/singer.cpp || cmake_object_order_depends_target_lab3
+  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\singer.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
+
+build CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Comp2012/code/comp2012/Lab/Lab3/song.cpp || cmake_object_order_depends_target_lab3
+  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\song.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3
+
+
+#############################################
+# Link the executable lab3.exe
+
+build lab3.exe: CXX_EXECUTABLE_LINKER__lab3_Debug CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab3.exe
+  TARGET_IMPLIB = liblab3.dll.a
+  TARGET_PDB = lab3.exe.dbg
 
 
 #############################################
@@ -99,7 +156,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build p61: phony p61.exe
+build lab3: phony lab3.exe
+
+build playground: phony playground.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +168,7 @@ build p61: phony p61.exe
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony p61.exe
+build all: phony playground.exe lab3.exe
 
 # =============================================================================
 # Built-in targets

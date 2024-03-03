@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "comp2012",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "p61::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-p61-Debug-2264afdc984f780b94c5.json",
-					"name" : "p61",
+					"id" : "lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3-Debug-fe0e621eb696c878a5bb.json",
+					"name" : "lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "playground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-playground-Debug-1716207eaa87f1601e06.json",
+					"name" : "playground",
 					"projectIndex" : 0
 				}
 			]
