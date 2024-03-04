@@ -10,7 +10,6 @@ PlayList::PlayList(const string& username, int capacity): username(username), ca
 
 PlayList::PlayList(const string& username, const PlayList& playlist, int capacity) : username(username), capacity(capacity){
     // TODO 3: PlayList constructor.
-//    songs = new * [capacity];
     songs = new const Song*[capacity];
     for (int i = 0; i < capacity; i++) {
         songs[i] = playlist.songs[i];
