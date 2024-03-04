@@ -10,7 +10,7 @@ PlayList::PlayList(const string& username, int capacity): username(username), ca
 
 PlayList::PlayList(const string& username, const PlayList& playlist, int capacity) : username(username), capacity(capacity){
     // TODO 3: PlayList constructor.
-    songs = new const Song*[capacity];
+    songs = new const Song*[max(capacity, playlist.capacity)];
     for (int i = 0; i < capacity; i++) {
         songs[i] = playlist.songs[i];
     }
@@ -23,6 +23,7 @@ PlayList::PlayList(const string& username, const PlayList& playlist, int capacit
 
 PlayList::~PlayList() {
     // TODO 6: Build the destructors.
+    delete []songs;
 }
 
 void PlayList::addSong(const Song* song) {
@@ -30,23 +31,24 @@ void PlayList::addSong(const Song* song) {
     for (int i = 0; i < capacity; i++) {
         if (songs[i] == nullptr) {
             songs[i] = song;
-            break;
+            return;
         }
     }
 }
 
 void PlayList::removeSong(const string& name) {
     // TODO 4: Add and Remove Songs of a Playlist.
+    int found = 0;
     for (int i = 0; i < capacity; i++) {
         if (songs[i]->getName() == name) {
-            for (int j = i; j < capacity - 1; j++) {
-                songs[j] = songs[j + 1];
-                cout << "testing: " << songs[j]->getName() << endl;
-            }
-
+            found = i;
+            break;
         }
-        break;
     }
+    for (int i = found; i < capacity - 1; i++) {
+        songs[i] = songs[i + 1];
+    }
+    songs[capacity - 1] = nullptr;
 }
 
 string PlayList::getUsername() const {

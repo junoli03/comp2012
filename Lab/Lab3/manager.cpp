@@ -13,6 +13,20 @@ MusicManager::MusicManager(int user_max, int singers_max, int songs_max)
 
 MusicManager::~MusicManager() {
     // TODO 6: Build the destructors.
+    for (int i = 0; i < num_of_user; i++) {
+        delete user_list[i];
+    }
+    delete []user_list;
+
+    for (int i = 0; i < num_of_singers; i++) {
+        delete singer_list[i];
+    }
+    delete []singer_list;
+
+    for (int i = 0; i < num_of_songs; i++) {
+        delete song_list[i];
+    }
+    delete []song_list;
 
     cout << "MusicManager destructor" << endl;
 }
@@ -44,7 +58,7 @@ void MusicManager::createPlaylistFromOther(const string& des_user_name, const st
     // TODO 5: Copy the playlist from your friend.
     for (int i = 0; i < num_of_user; i++) {
         if (user_list[i]->getUsername() == src_user_name) {
-            user_list[num_of_user++] = new PlayList(des_user_name, PlayList(src_user_name));
+            user_list[num_of_user++] = new PlayList(des_user_name, *user_list[i]);
         }
     }
     cout << "[CopyCreation] Playlist of " << des_user_name << " (From:" << src_user_name << ")." << endl;
