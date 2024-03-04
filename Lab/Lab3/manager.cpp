@@ -1,26 +1,19 @@
 #include <iostream>
 #include "manager.h"
 
-MusicManager::MusicManager(int user_max, int singers_max, int songs_max) : user_capacity(user_max), singers_capacity(singers_max), songs_capacity(songs_max){
-    num_of_user = 0;
-    num_of_singers = 0;
-    num_of_songs = 0;
+MusicManager::MusicManager(int user_max, int singers_max, int songs_max)
+    : user_capacity(user_max), singers_capacity(singers_max), songs_capacity(songs_max), num_of_user(0), num_of_songs(0), num_of_singers(0){
+    user_list = new PlayList * [user_max];
+    singer_list = new Singer * [singers_max];
+    song_list = new Song * [songs_max];
+
     // TODO 1: MusicManager constructor.
     cout << "MusicManager constructor" << endl;
 }
 
 MusicManager::~MusicManager() {
     // TODO 6: Build the destructors.
-    for (int i = 0; i < num_of_user; i++) {
-        delete user_list[i];
-    }
-    for (int i = 0; i < num_of_singers; i++) {
-        delete singer_list[i];
-    }
-    for (int i = 0; i < num_of_songs; i++) {
-        delete song_list[i];
-    }
-    
+
     cout << "MusicManager destructor" << endl;
 }
 

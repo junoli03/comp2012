@@ -19,9 +19,6 @@ PlayList::PlayList(const string& username, const PlayList& playlist, int capacit
             songs[i] = nullptr;
         }
     }
-
-
-
 }
 
 PlayList::~PlayList() {
@@ -33,6 +30,7 @@ void PlayList::addSong(const Song* song) {
     for (int i = 0; i < capacity; i++) {
         if (songs[i] == nullptr) {
             songs[i] = song;
+            break;
         }
     }
 }
@@ -41,9 +39,13 @@ void PlayList::removeSong(const string& name) {
     // TODO 4: Add and Remove Songs of a Playlist.
     for (int i = 0; i < capacity; i++) {
         if (songs[i]->getName() == name) {
-            for (int j = i; j < capacity; j++)
+            for (int j = i; j < capacity - 1; j++) {
                 songs[j] = songs[j + 1];
+                cout << "testing: " << songs[j]->getName() << endl;
+            }
+
         }
+        break;
     }
 }
 
