@@ -117,65 +117,174 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab2
+# Target rules for targets named playground
 
 # Build rule for target.
-lab2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2
-.PHONY : lab2
+playground: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
+.PHONY : playground
 
 # fast build rule for target.
-lab2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
-.PHONY : lab2/fast
+playground/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
+.PHONY : playground/fast
 
-Lab/Lab2/library.o: Lab/Lab2/library.cpp.o
-.PHONY : Lab/Lab2/library.o
+#=============================================================================
+# Target rules for targets named lab3
 
-# target to build an object file
-Lab/Lab2/library.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.o
-.PHONY : Lab/Lab2/library.cpp.o
+# Build rule for target.
+lab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3
+.PHONY : lab3
 
-Lab/Lab2/library.i: Lab/Lab2/library.cpp.i
-.PHONY : Lab/Lab2/library.i
+# fast build rule for target.
+lab3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
+.PHONY : lab3/fast
 
-# target to preprocess a source file
-Lab/Lab2/library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.i
-.PHONY : Lab/Lab2/library.cpp.i
-
-Lab/Lab2/library.s: Lab/Lab2/library.cpp.s
-.PHONY : Lab/Lab2/library.s
-
-# target to generate assembly for a file
-Lab/Lab2/library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/library.cpp.s
-.PHONY : Lab/Lab2/library.cpp.s
-
-Lab/Lab2/main.o: Lab/Lab2/main.cpp.o
-.PHONY : Lab/Lab2/main.o
+Lab/Lab3/main.o: Lab/Lab3/main.cpp.o
+.PHONY : Lab/Lab3/main.o
 
 # target to build an object file
-Lab/Lab2/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.o
-.PHONY : Lab/Lab2/main.cpp.o
+Lab/Lab3/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.o
+.PHONY : Lab/Lab3/main.cpp.o
 
-Lab/Lab2/main.i: Lab/Lab2/main.cpp.i
-.PHONY : Lab/Lab2/main.i
+Lab/Lab3/main.i: Lab/Lab3/main.cpp.i
+.PHONY : Lab/Lab3/main.i
 
 # target to preprocess a source file
-Lab/Lab2/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.i
-.PHONY : Lab/Lab2/main.cpp.i
+Lab/Lab3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.i
+.PHONY : Lab/Lab3/main.cpp.i
 
-Lab/Lab2/main.s: Lab/Lab2/main.cpp.s
-.PHONY : Lab/Lab2/main.s
+Lab/Lab3/main.s: Lab/Lab3/main.cpp.s
+.PHONY : Lab/Lab3/main.s
 
 # target to generate assembly for a file
-Lab/Lab2/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Lab/Lab2/main.cpp.s
-.PHONY : Lab/Lab2/main.cpp.s
+Lab/Lab3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.s
+.PHONY : Lab/Lab3/main.cpp.s
+
+Lab/Lab3/manager.o: Lab/Lab3/manager.cpp.o
+.PHONY : Lab/Lab3/manager.o
+
+# target to build an object file
+Lab/Lab3/manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.o
+.PHONY : Lab/Lab3/manager.cpp.o
+
+Lab/Lab3/manager.i: Lab/Lab3/manager.cpp.i
+.PHONY : Lab/Lab3/manager.i
+
+# target to preprocess a source file
+Lab/Lab3/manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.i
+.PHONY : Lab/Lab3/manager.cpp.i
+
+Lab/Lab3/manager.s: Lab/Lab3/manager.cpp.s
+.PHONY : Lab/Lab3/manager.s
+
+# target to generate assembly for a file
+Lab/Lab3/manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.s
+.PHONY : Lab/Lab3/manager.cpp.s
+
+Lab/Lab3/playlist.o: Lab/Lab3/playlist.cpp.o
+.PHONY : Lab/Lab3/playlist.o
+
+# target to build an object file
+Lab/Lab3/playlist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.o
+.PHONY : Lab/Lab3/playlist.cpp.o
+
+Lab/Lab3/playlist.i: Lab/Lab3/playlist.cpp.i
+.PHONY : Lab/Lab3/playlist.i
+
+# target to preprocess a source file
+Lab/Lab3/playlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.i
+.PHONY : Lab/Lab3/playlist.cpp.i
+
+Lab/Lab3/playlist.s: Lab/Lab3/playlist.cpp.s
+.PHONY : Lab/Lab3/playlist.s
+
+# target to generate assembly for a file
+Lab/Lab3/playlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.s
+.PHONY : Lab/Lab3/playlist.cpp.s
+
+Lab/Lab3/singer.o: Lab/Lab3/singer.cpp.o
+.PHONY : Lab/Lab3/singer.o
+
+# target to build an object file
+Lab/Lab3/singer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.o
+.PHONY : Lab/Lab3/singer.cpp.o
+
+Lab/Lab3/singer.i: Lab/Lab3/singer.cpp.i
+.PHONY : Lab/Lab3/singer.i
+
+# target to preprocess a source file
+Lab/Lab3/singer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.i
+.PHONY : Lab/Lab3/singer.cpp.i
+
+Lab/Lab3/singer.s: Lab/Lab3/singer.cpp.s
+.PHONY : Lab/Lab3/singer.s
+
+# target to generate assembly for a file
+Lab/Lab3/singer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.s
+.PHONY : Lab/Lab3/singer.cpp.s
+
+Lab/Lab3/song.o: Lab/Lab3/song.cpp.o
+.PHONY : Lab/Lab3/song.o
+
+# target to build an object file
+Lab/Lab3/song.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.o
+.PHONY : Lab/Lab3/song.cpp.o
+
+Lab/Lab3/song.i: Lab/Lab3/song.cpp.i
+.PHONY : Lab/Lab3/song.i
+
+# target to preprocess a source file
+Lab/Lab3/song.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.i
+.PHONY : Lab/Lab3/song.cpp.i
+
+Lab/Lab3/song.s: Lab/Lab3/song.cpp.s
+.PHONY : Lab/Lab3/song.s
+
+# target to generate assembly for a file
+Lab/Lab3/song.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.s
+.PHONY : Lab/Lab3/song.cpp.s
+
+playground.o: playground.cpp.o
+.PHONY : playground.o
+
+# target to build an object file
+playground.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.o
+.PHONY : playground.cpp.o
+
+playground.i: playground.cpp.i
+.PHONY : playground.i
+
+# target to preprocess a source file
+playground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.i
+.PHONY : playground.cpp.i
+
+playground.s: playground.cpp.s
+.PHONY : playground.s
+
+# target to generate assembly for a file
+playground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.s
+.PHONY : playground.cpp.s
 
 # Help Target
 help:
@@ -185,13 +294,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab2"
-	@echo "... Lab/Lab2/library.o"
-	@echo "... Lab/Lab2/library.i"
-	@echo "... Lab/Lab2/library.s"
-	@echo "... Lab/Lab2/main.o"
-	@echo "... Lab/Lab2/main.i"
-	@echo "... Lab/Lab2/main.s"
+	@echo "... lab3"
+	@echo "... playground"
+	@echo "... Lab/Lab3/main.o"
+	@echo "... Lab/Lab3/main.i"
+	@echo "... Lab/Lab3/main.s"
+	@echo "... Lab/Lab3/manager.o"
+	@echo "... Lab/Lab3/manager.i"
+	@echo "... Lab/Lab3/manager.s"
+	@echo "... Lab/Lab3/playlist.o"
+	@echo "... Lab/Lab3/playlist.i"
+	@echo "... Lab/Lab3/playlist.s"
+	@echo "... Lab/Lab3/singer.o"
+	@echo "... Lab/Lab3/singer.i"
+	@echo "... Lab/Lab3/singer.s"
+	@echo "... Lab/Lab3/song.o"
+	@echo "... Lab/Lab3/song.i"
+	@echo "... Lab/Lab3/song.s"
+	@echo "... playground.o"
+	@echo "... playground.i"
+	@echo "... playground.s"
 .PHONY : help
 
 

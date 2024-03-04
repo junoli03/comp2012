@@ -17,8 +17,8 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab2">
-				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+			<Target title="playground">
+				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab2/fast">
-				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+			<Target title="playground/fast">
+				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,49 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2/fast"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3">
+				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3/fast">
+				<Option output="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,14 +122,35 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab2/library.cpp">
-			<Option target="lab2"/>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/main.cpp">
+			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab2/library.h">
-			<Option target="lab2"/>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/manager.cpp">
+			<Option target="lab3"/>
 		</Unit>
-		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab2/main.cpp">
-			<Option target="lab2"/>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/manager.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/playlist.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/playlist.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/singer.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/singer.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/song.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/Lab/Lab3/song.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/playground.cpp">
+			<Option target="playground"/>
 		</Unit>
 		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
