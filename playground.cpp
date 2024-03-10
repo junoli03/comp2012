@@ -5,12 +5,11 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int a[] = {1, 2, 3, 4, 5};
-    for (int i = 0; i < 5; i++)
-    {
-        i++;
-        cout << a[i] << " ";
-    }
+
+
+int main() {
+    const int** ptr = new int const*;
+    *ptr = new int;
+    int b = 10;
+    **ptr = &b;
 }
