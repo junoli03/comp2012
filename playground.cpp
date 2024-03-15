@@ -5,11 +5,11 @@
 #include <iostream>
 using namespace std;
 
+class A{
+public:
+    A(){cout<<"a cons"<<endl;}
+    ~A(){cout<<"des"<<endl;}
+};
 
-
-int main() {
-    const int** ptr = new int const*;
-    *ptr = new int;
-    int b = 10;
-    **ptr = &b;
-}
+int main()
+{
