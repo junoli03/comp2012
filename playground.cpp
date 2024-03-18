@@ -3,14 +3,20 @@
 //
 
 #include <iostream>
+#include <iostream>
 using namespace std;
+
+class A{
+public:
+    A(){cout<<"a cons"<<endl;}
+    ~A(){cout<<"des"<<endl;}
+};
 
 int main()
 {
-    int a[] = {1, 2, 3, 4, 5};
-    for (int i = 0; i < 5; i++)
-    {
-        i++;
-        cout << a[i] << " ";
-    }
+    A AA;
+    A bb =A();
+    cout << "juju" << endl;
+    AA = A();
+    return 0;
 }

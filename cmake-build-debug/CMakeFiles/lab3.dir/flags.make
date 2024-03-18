@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics -std=gnu++11
+CXX_FLAGSarm64 = -g -arch arm64 -mmacosx-version-min=14.0 -fcolor-diagnostics -std=gnu++11
 
-CXX_FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics -std=gnu++11
+CXX_FLAGS = -g -arch arm64 -mmacosx-version-min=14.0 -fcolor-diagnostics -std=gnu++11
 
