@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab3.exe"
+			"path" : "p61.exe"
 		},
 		{
-			"path" : "lab3.pdb"
+			"path" : "p61.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -38,14 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-lab3-Debug-8ee74a5051711c65b87d.json
-					"fragment" : "-g -arch arm64 -mmacosx-version-min=14.0 -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++11"
-========
 					"fragment" : "-g -std=gnu++11 -fdiagnostics-color=always"
->>>>>>>> e275fb2cc4d71436dd6beb09a1dc4648e6f8ced6:cmake-build-debug/.cmake/api/v1/reply/target-lab3-Debug-fe0e621eb696c878a5bb.json
 				}
 			],
 			"language" : "CXX",
@@ -59,15 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4
+				0
 			]
 		}
 	],
-	"id" : "lab3::@6890427a1f51a3e7e1df",
+	"id" : "p61::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -87,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "lab3",
-	"nameOnDisk" : "lab3.exe",
+	"name" : "p61",
+	"nameOnDisk" : "p61.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -100,11 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4
+				0
 			]
 		}
 	],
@@ -113,31 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Lab/Lab3/main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Lab/Lab3/manager.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Lab/Lab3/playlist.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Lab/Lab3/singer.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Lab/Lab3/song.cpp",
+			"path" : "Construction_destruction/p61.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
