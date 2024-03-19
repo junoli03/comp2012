@@ -2,14 +2,10 @@
 	"artifacts" : 
 	[
 		{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-lab4-Debug-50a06a35c7201590476d.json
 			"path" : "lab4.exe"
 		},
 		{
 			"path" : "lab4.pdb"
-========
-			"path" : "lab3"
->>>>>>>> 2f7de752ed5599bda6d607156cd1988fd3e81971:cmake-build-debug/.cmake/api/v1/reply/target-lab3-Debug-53f07846c7e2d2cf97ab.json
 		}
 	],
 	"backtrace" : 1,
@@ -42,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-g -std=gnu++11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -78,17 +71,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-lab4-Debug-50a06a35c7201590476d.json
 	"name" : "lab4",
 	"nameOnDisk" : "lab4.exe",
-========
-	"name" : "lab3",
-	"nameOnDisk" : "lab3",
->>>>>>>> 2f7de752ed5599bda6d607156cd1988fd3e81971:cmake-build-debug/.cmake/api/v1/reply/target-lab3-Debug-53f07846c7e2d2cf97ab.json
 	"paths" : 
 	{
 		"build" : ".",

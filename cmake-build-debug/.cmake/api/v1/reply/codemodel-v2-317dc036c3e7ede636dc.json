@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -40,28 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-317dc036c3e7ede636dc.json
 					"id" : "lab4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab4-Debug-50a06a35c7201590476d.json",
 					"name" : "lab4",
-========
-					"id" : "lab3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab3-Debug-53f07846c7e2d2cf97ab.json",
-					"name" : "lab3",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "p61::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-p61-Debug-cec2213b4d498210a068.json",
-					"name" : "p61",
->>>>>>>> 2f7de752ed5599bda6d607156cd1988fd3e81971:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dffef2d22d9f1e159f15.json
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "playground::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-playground-Debug-c0e73c4ef3aabbf5034e.json",
+					"jsonFile" : "target-playground-Debug-1716207eaa87f1601e06.json",
 					"name" : "playground",
 					"projectIndex" : 0
 				}
@@ -71,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug",
-		"source" : "/Users/Juno/Documents/GitHub/comp2012"
+		"build" : "C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Yr2 Spring/Comp2012/code/comp2012/cmake-build-debug",
+		"source" : "C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Yr2 Spring/Comp2012/code/comp2012"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }

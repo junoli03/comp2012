@@ -86,21 +86,11 @@ void ProductCollection::increaseCapacity(int additionalSpace) {
     // TODO 1
     // Your code starts here
     int* temp = new int [capacity + additionalSpace];
-    for (int i = 0; i < capacity; i++) {
+    for (int i = 0; i < size; i++) {
         temp[i] = products[i];
     }
     capacity += additionalSpace;
-    delete products;
+    delete []products;
     products = temp;
-
-
-
-
-
-
-
-
-
-
     // Your code ends here
 }

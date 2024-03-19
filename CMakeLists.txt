@@ -14,4 +14,3 @@ add_executable(playground playground.cpp)
 #add_executable(lab2 Lab/Lab2/library.cpp Lab/Lab2/main.cpp)
 #add_executable(p39 Construction_destruction/p39.cpp)
 add_executable(lab4 Lab/Lab4/main.cpp Lab/Lab4/MemberOrder.cpp Lab/Lab4/OrdinaryOrder.cpp Lab/Lab4/ProductCollection.cpp)
-
