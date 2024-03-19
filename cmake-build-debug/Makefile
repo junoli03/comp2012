@@ -130,174 +130,17 @@ playground/fast:
 .PHONY : playground/fast
 
 #=============================================================================
-# Target rules for targets named p61
+# Target rules for targets named pa1
 
 # Build rule for target.
-p61: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p61
-.PHONY : p61
+pa1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pa1
+.PHONY : pa1
 
 # fast build rule for target.
-p61/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/build
-.PHONY : p61/fast
-
-#=============================================================================
-# Target rules for targets named lab3
-
-# Build rule for target.
-lab3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3
-.PHONY : lab3
-
-# fast build rule for target.
-lab3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
-.PHONY : lab3/fast
-
-Construction_destruction/p61.o: Construction_destruction/p61.cpp.o
-.PHONY : Construction_destruction/p61.o
-
-# target to build an object file
-Construction_destruction/p61.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.o
-.PHONY : Construction_destruction/p61.cpp.o
-
-Construction_destruction/p61.i: Construction_destruction/p61.cpp.i
-.PHONY : Construction_destruction/p61.i
-
-# target to preprocess a source file
-Construction_destruction/p61.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.i
-.PHONY : Construction_destruction/p61.cpp.i
-
-Construction_destruction/p61.s: Construction_destruction/p61.cpp.s
-.PHONY : Construction_destruction/p61.s
-
-# target to generate assembly for a file
-Construction_destruction/p61.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.s
-.PHONY : Construction_destruction/p61.cpp.s
-
-Lab/Lab3/main.o: Lab/Lab3/main.cpp.o
-.PHONY : Lab/Lab3/main.o
-
-# target to build an object file
-Lab/Lab3/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.o
-.PHONY : Lab/Lab3/main.cpp.o
-
-Lab/Lab3/main.i: Lab/Lab3/main.cpp.i
-.PHONY : Lab/Lab3/main.i
-
-# target to preprocess a source file
-Lab/Lab3/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.i
-.PHONY : Lab/Lab3/main.cpp.i
-
-Lab/Lab3/main.s: Lab/Lab3/main.cpp.s
-.PHONY : Lab/Lab3/main.s
-
-# target to generate assembly for a file
-Lab/Lab3/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.s
-.PHONY : Lab/Lab3/main.cpp.s
-
-Lab/Lab3/manager.o: Lab/Lab3/manager.cpp.o
-.PHONY : Lab/Lab3/manager.o
-
-# target to build an object file
-Lab/Lab3/manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.o
-.PHONY : Lab/Lab3/manager.cpp.o
-
-Lab/Lab3/manager.i: Lab/Lab3/manager.cpp.i
-.PHONY : Lab/Lab3/manager.i
-
-# target to preprocess a source file
-Lab/Lab3/manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.i
-.PHONY : Lab/Lab3/manager.cpp.i
-
-Lab/Lab3/manager.s: Lab/Lab3/manager.cpp.s
-.PHONY : Lab/Lab3/manager.s
-
-# target to generate assembly for a file
-Lab/Lab3/manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.s
-.PHONY : Lab/Lab3/manager.cpp.s
-
-Lab/Lab3/playlist.o: Lab/Lab3/playlist.cpp.o
-.PHONY : Lab/Lab3/playlist.o
-
-# target to build an object file
-Lab/Lab3/playlist.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.o
-.PHONY : Lab/Lab3/playlist.cpp.o
-
-Lab/Lab3/playlist.i: Lab/Lab3/playlist.cpp.i
-.PHONY : Lab/Lab3/playlist.i
-
-# target to preprocess a source file
-Lab/Lab3/playlist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.i
-.PHONY : Lab/Lab3/playlist.cpp.i
-
-Lab/Lab3/playlist.s: Lab/Lab3/playlist.cpp.s
-.PHONY : Lab/Lab3/playlist.s
-
-# target to generate assembly for a file
-Lab/Lab3/playlist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.s
-.PHONY : Lab/Lab3/playlist.cpp.s
-
-Lab/Lab3/singer.o: Lab/Lab3/singer.cpp.o
-.PHONY : Lab/Lab3/singer.o
-
-# target to build an object file
-Lab/Lab3/singer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.o
-.PHONY : Lab/Lab3/singer.cpp.o
-
-Lab/Lab3/singer.i: Lab/Lab3/singer.cpp.i
-.PHONY : Lab/Lab3/singer.i
-
-# target to preprocess a source file
-Lab/Lab3/singer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.i
-.PHONY : Lab/Lab3/singer.cpp.i
-
-Lab/Lab3/singer.s: Lab/Lab3/singer.cpp.s
-.PHONY : Lab/Lab3/singer.s
-
-# target to generate assembly for a file
-Lab/Lab3/singer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.s
-.PHONY : Lab/Lab3/singer.cpp.s
-
-Lab/Lab3/song.o: Lab/Lab3/song.cpp.o
-.PHONY : Lab/Lab3/song.o
-
-# target to build an object file
-Lab/Lab3/song.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.o
-.PHONY : Lab/Lab3/song.cpp.o
-
-Lab/Lab3/song.i: Lab/Lab3/song.cpp.i
-.PHONY : Lab/Lab3/song.i
-
-# target to preprocess a source file
-Lab/Lab3/song.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.i
-.PHONY : Lab/Lab3/song.cpp.i
-
-Lab/Lab3/song.s: Lab/Lab3/song.cpp.s
-.PHONY : Lab/Lab3/song.s
-
-# target to generate assembly for a file
-Lab/Lab3/song.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.s
-.PHONY : Lab/Lab3/song.cpp.s
+pa1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/build
+.PHONY : pa1/fast
 
 playground.o: playground.cpp.o
 .PHONY : playground.o
@@ -323,6 +166,150 @@ playground.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.cpp.s
 .PHONY : playground.cpp.s
 
+programmingAssignment/PA1/Buyer.o: programmingAssignment/PA1/Buyer.cpp.o
+.PHONY : programmingAssignment/PA1/Buyer.o
+
+# target to build an object file
+programmingAssignment/PA1/Buyer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.o
+.PHONY : programmingAssignment/PA1/Buyer.cpp.o
+
+programmingAssignment/PA1/Buyer.i: programmingAssignment/PA1/Buyer.cpp.i
+.PHONY : programmingAssignment/PA1/Buyer.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/Buyer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.i
+.PHONY : programmingAssignment/PA1/Buyer.cpp.i
+
+programmingAssignment/PA1/Buyer.s: programmingAssignment/PA1/Buyer.cpp.s
+.PHONY : programmingAssignment/PA1/Buyer.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/Buyer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.s
+.PHONY : programmingAssignment/PA1/Buyer.cpp.s
+
+programmingAssignment/PA1/Food.o: programmingAssignment/PA1/Food.cpp.o
+.PHONY : programmingAssignment/PA1/Food.o
+
+# target to build an object file
+programmingAssignment/PA1/Food.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.o
+.PHONY : programmingAssignment/PA1/Food.cpp.o
+
+programmingAssignment/PA1/Food.i: programmingAssignment/PA1/Food.cpp.i
+.PHONY : programmingAssignment/PA1/Food.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.i
+.PHONY : programmingAssignment/PA1/Food.cpp.i
+
+programmingAssignment/PA1/Food.s: programmingAssignment/PA1/Food.cpp.s
+.PHONY : programmingAssignment/PA1/Food.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.s
+.PHONY : programmingAssignment/PA1/Food.cpp.s
+
+programmingAssignment/PA1/Menu.o: programmingAssignment/PA1/Menu.cpp.o
+.PHONY : programmingAssignment/PA1/Menu.o
+
+# target to build an object file
+programmingAssignment/PA1/Menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o
+.PHONY : programmingAssignment/PA1/Menu.cpp.o
+
+programmingAssignment/PA1/Menu.i: programmingAssignment/PA1/Menu.cpp.i
+.PHONY : programmingAssignment/PA1/Menu.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.i
+.PHONY : programmingAssignment/PA1/Menu.cpp.i
+
+programmingAssignment/PA1/Menu.s: programmingAssignment/PA1/Menu.cpp.s
+.PHONY : programmingAssignment/PA1/Menu.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.s
+.PHONY : programmingAssignment/PA1/Menu.cpp.s
+
+programmingAssignment/PA1/Order.o: programmingAssignment/PA1/Order.cpp.o
+.PHONY : programmingAssignment/PA1/Order.o
+
+# target to build an object file
+programmingAssignment/PA1/Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o
+.PHONY : programmingAssignment/PA1/Order.cpp.o
+
+programmingAssignment/PA1/Order.i: programmingAssignment/PA1/Order.cpp.i
+.PHONY : programmingAssignment/PA1/Order.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.i
+.PHONY : programmingAssignment/PA1/Order.cpp.i
+
+programmingAssignment/PA1/Order.s: programmingAssignment/PA1/Order.cpp.s
+.PHONY : programmingAssignment/PA1/Order.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.s
+.PHONY : programmingAssignment/PA1/Order.cpp.s
+
+programmingAssignment/PA1/OrderList.o: programmingAssignment/PA1/OrderList.cpp.o
+.PHONY : programmingAssignment/PA1/OrderList.o
+
+# target to build an object file
+programmingAssignment/PA1/OrderList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o
+.PHONY : programmingAssignment/PA1/OrderList.cpp.o
+
+programmingAssignment/PA1/OrderList.i: programmingAssignment/PA1/OrderList.cpp.i
+.PHONY : programmingAssignment/PA1/OrderList.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/OrderList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.i
+.PHONY : programmingAssignment/PA1/OrderList.cpp.i
+
+programmingAssignment/PA1/OrderList.s: programmingAssignment/PA1/OrderList.cpp.s
+.PHONY : programmingAssignment/PA1/OrderList.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/OrderList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.s
+.PHONY : programmingAssignment/PA1/OrderList.cpp.s
+
+programmingAssignment/PA1/main.o: programmingAssignment/PA1/main.cpp.o
+.PHONY : programmingAssignment/PA1/main.o
+
+# target to build an object file
+programmingAssignment/PA1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o
+.PHONY : programmingAssignment/PA1/main.cpp.o
+
+programmingAssignment/PA1/main.i: programmingAssignment/PA1/main.cpp.i
+.PHONY : programmingAssignment/PA1/main.i
+
+# target to preprocess a source file
+programmingAssignment/PA1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.i
+.PHONY : programmingAssignment/PA1/main.cpp.i
+
+programmingAssignment/PA1/main.s: programmingAssignment/PA1/main.cpp.s
+.PHONY : programmingAssignment/PA1/main.s
+
+# target to generate assembly for a file
+programmingAssignment/PA1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.s
+.PHONY : programmingAssignment/PA1/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,30 +318,29 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab3"
-	@echo "... p61"
+	@echo "... pa1"
 	@echo "... playground"
-	@echo "... Construction_destruction/p61.o"
-	@echo "... Construction_destruction/p61.i"
-	@echo "... Construction_destruction/p61.s"
-	@echo "... Lab/Lab3/main.o"
-	@echo "... Lab/Lab3/main.i"
-	@echo "... Lab/Lab3/main.s"
-	@echo "... Lab/Lab3/manager.o"
-	@echo "... Lab/Lab3/manager.i"
-	@echo "... Lab/Lab3/manager.s"
-	@echo "... Lab/Lab3/playlist.o"
-	@echo "... Lab/Lab3/playlist.i"
-	@echo "... Lab/Lab3/playlist.s"
-	@echo "... Lab/Lab3/singer.o"
-	@echo "... Lab/Lab3/singer.i"
-	@echo "... Lab/Lab3/singer.s"
-	@echo "... Lab/Lab3/song.o"
-	@echo "... Lab/Lab3/song.i"
-	@echo "... Lab/Lab3/song.s"
 	@echo "... playground.o"
 	@echo "... playground.i"
 	@echo "... playground.s"
+	@echo "... programmingAssignment/PA1/Buyer.o"
+	@echo "... programmingAssignment/PA1/Buyer.i"
+	@echo "... programmingAssignment/PA1/Buyer.s"
+	@echo "... programmingAssignment/PA1/Food.o"
+	@echo "... programmingAssignment/PA1/Food.i"
+	@echo "... programmingAssignment/PA1/Food.s"
+	@echo "... programmingAssignment/PA1/Menu.o"
+	@echo "... programmingAssignment/PA1/Menu.i"
+	@echo "... programmingAssignment/PA1/Menu.s"
+	@echo "... programmingAssignment/PA1/Order.o"
+	@echo "... programmingAssignment/PA1/Order.i"
+	@echo "... programmingAssignment/PA1/Order.s"
+	@echo "... programmingAssignment/PA1/OrderList.o"
+	@echo "... programmingAssignment/PA1/OrderList.i"
+	@echo "... programmingAssignment/PA1/OrderList.s"
+	@echo "... programmingAssignment/PA1/main.o"
+	@echo "... programmingAssignment/PA1/main.i"
+	@echo "... programmingAssignment/PA1/main.s"
 .PHONY : help
 
 
