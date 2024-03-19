@@ -85,6 +85,14 @@ int ProductCollection::remove(int productID) {
 void ProductCollection::increaseCapacity(int additionalSpace) {
     // TODO 1
     // Your code starts here
+    int* temp = new int [capacity + additionalSpace];
+    for (int i = 0; i < capacity; i++) {
+        temp[i] = products[i];
+    }
+    capacity += additionalSpace;
+    delete products;
+    products = temp;
+
 
 
 

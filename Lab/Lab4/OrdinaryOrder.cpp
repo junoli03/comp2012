@@ -5,7 +5,8 @@
 
 using namespace std;
 
-OrdinaryOrder::OrdinaryOrder(const string& collectionID, const string& name, OrderType type, int capacity) {
+OrdinaryOrder::OrdinaryOrder(const string& collectionID, const string& name, OrderType type, int capacity)
+    : ProductCollection(collectionID, capacity), name(name), type(type){
     // TODO 2.1
     // You can use MIL for TODO 2.1 so you can modify the above part and your code does not neccessarily start from here
 
@@ -16,6 +17,12 @@ OrdinaryOrder::OrdinaryOrder(const string& collectionID, const string& name, Ord
 int OrdinaryOrder::addFromOrder(const OrdinaryOrder* anotherOrder) {
     // TODO 2.2
     // Your code starts here
+    if (anotherOrder->getSize() > getCapacity() - getSize())
+        return 1;
+    for (int i = 0; i < anotherOrder->getSize(); i++) {
+        insert(anotherOrder->readProduct(i));
+    }
+    return 0;
 
 
 

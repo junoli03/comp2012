@@ -74,94 +74,55 @@ build playground.exe: CXX_EXECUTABLE_LINKER__playground_Debug CMakeFiles/playgro
   TARGET_PDB = playground.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target p61
+# Object build statements for EXECUTABLE target lab4
 
 
 #############################################
-# Order-only phony target for p61
+# Order-only phony target for lab4
 
-build cmake_object_order_depends_target_p61: phony || CMakeFiles/p61.dir
+build cmake_object_order_depends_target_lab4: phony || CMakeFiles/lab4.dir
 
-build CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj: CXX_COMPILER__p61_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Construction_destruction/p61.cpp || cmake_object_order_depends_target_p61
-  DEP_FILE = CMakeFiles\p61.dir\Construction_destruction\p61.cpp.obj.d
+build CMakeFiles/lab4.dir/Lab/Lab4/main.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/main.cpp || cmake_object_order_depends_target_lab4
+  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\p61.dir
-  OBJECT_FILE_DIR = CMakeFiles\p61.dir\Construction_destruction
+  OBJECT_DIR = CMakeFiles\lab4.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+
+build CMakeFiles/lab4.dir/Lab/Lab4/MemberOrder.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/MemberOrder.cpp || cmake_object_order_depends_target_lab4
+  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\MemberOrder.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab4.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+
+build CMakeFiles/lab4.dir/Lab/Lab4/OrdinaryOrder.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/OrdinaryOrder.cpp || cmake_object_order_depends_target_lab4
+  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\OrdinaryOrder.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab4.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+
+build CMakeFiles/lab4.dir/Lab/Lab4/ProductCollection.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/ProductCollection.cpp || cmake_object_order_depends_target_lab4
+  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\ProductCollection.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab4.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target p61
+# Link build statements for EXECUTABLE target lab4
 
 
 #############################################
-# Link the executable p61.exe
+# Link the executable lab4.exe
 
-build p61.exe: CXX_EXECUTABLE_LINKER__p61_Debug CMakeFiles/p61.dir/Construction_destruction/p61.cpp.obj
+build lab4.exe: CXX_EXECUTABLE_LINKER__lab4_Debug CMakeFiles/lab4.dir/Lab/Lab4/main.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/MemberOrder.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/OrdinaryOrder.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/ProductCollection.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\p61.dir
+  OBJECT_DIR = CMakeFiles\lab4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = p61.exe
-  TARGET_IMPLIB = libp61.dll.a
-  TARGET_PDB = p61.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab3
-
-
-#############################################
-# Order-only phony target for lab3
-
-build cmake_object_order_depends_target_lab3: phony || CMakeFiles/lab3.dir
-
-build CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab3/main.cpp || cmake_object_order_depends_target_lab3
-  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\main.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
-
-build CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab3/manager.cpp || cmake_object_order_depends_target_lab3
-  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\manager.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
-
-build CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab3/playlist.cpp || cmake_object_order_depends_target_lab3
-  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\playlist.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
-
-build CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab3/singer.cpp || cmake_object_order_depends_target_lab3
-  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\singer.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
-
-build CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj: CXX_COMPILER__lab3_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab3/song.cpp || cmake_object_order_depends_target_lab3
-  DEP_FILE = CMakeFiles\lab3.dir\Lab\Lab3\song.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3.dir\Lab\Lab3
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab3
-
-
-#############################################
-# Link the executable lab3.exe
-
-build lab3.exe: CXX_EXECUTABLE_LINKER__lab3_Debug CMakeFiles/lab3.dir/Lab/Lab3/main.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/manager.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/playlist.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/singer.cpp.obj CMakeFiles/lab3.dir/Lab/Lab3/song.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lab3.exe
-  TARGET_IMPLIB = liblab3.dll.a
-  TARGET_PDB = lab3.exe.dbg
+  TARGET_FILE = lab4.exe
+  TARGET_IMPLIB = liblab4.dll.a
+  TARGET_PDB = lab4.exe.dbg
 
 
 #############################################
@@ -189,9 +150,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build lab3: phony lab3.exe
-
-build p61: phony p61.exe
+build lab4: phony lab4.exe
 
 build playground: phony playground.exe
 
@@ -203,7 +162,7 @@ build playground: phony playground.exe
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Yr2 Spring/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony playground.exe p61.exe lab3.exe
+build all: phony playground.exe lab4.exe
 
 # =============================================================================
 # Built-in targets
