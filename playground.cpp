@@ -6,17 +6,19 @@
 #include <iostream>
 using namespace std;
 
-class A{
-public:
-    A(){cout<<"a cons"<<endl;}
-    ~A(){cout<<"des"<<endl;}
-};
+int found = 0;
 
+int test () {
+    for (int i = 0; i < 5; i++)
+    {
+//        cout << i << endl;
+        if (i == 3){
+            found = i;
+            return i;
+        }
+    }
+}
 int main()
 {
-    A AA;
-    A bb =A();
-    cout << "juju" << endl;
-    AA = A();
-    return 0;
+    cout << test() << endl;
 }

@@ -2,36 +2,69 @@
 
 // Task 3.1
 Menu::Menu(){
+    currentSize = 0;
+    nextFoodId = 1;
+    capacity = 10;
+    foodItems = new Food[capacity];
 }
 
 // Task 3.2
 Menu::~Menu() {
-
+    delete []foodItems;
 }
 
 // Task 3.3
 void Menu::addFood(const Food& food) {
+    if (!isFull()) {
+        foodItems[currentSize++] = food;
+        nextFoodId++;
+    }
 
 }
 
 // Task 3.4
 bool Menu::removeFood(int id) {
-
+    if (currentSize > 0) {
+        int found = findFoodIndex(id);
+        if (found != -1) {
+            for (int i = found; i < currentSize - 1; i++) {
+                foodItems[i] = foodItems[i+1];
+            }
+            nextFoodId = foodItems[found].getFoodId();
+            currentSize--;
+        }
+    }
 }
 
 // Task 3.5
 int Menu::findFoodIndex(int id) const {
-
+    for (int i = 0; i < currentSize; i++) {
+        if (foodItems[i].getFoodId() == id) {
+            return i;
+        }
+    }
+    return -1;
 }
 
 // Task 3.6
 const Food* Menu::getFoodById(int id) const {
-
+    for (int i = 0; i < currentSize; i++) {
+        if (foodItems[i].getFoodId() == id) {
+            return &foodItems[i];
+        }
+    }
+    return nullptr;
 }
 
 // Task 3.7
 void Menu::resizeArray() {
-
+    Food* temp = new Food[capacity + 1];
+    for (int i = 0; i < capacity;i++) {
+        temp[i] = foodItems[i];
+    }
+    capacity++;
+    delete []foodItems;
+    foodItems = temp;
 }
 
 // ---------------------- provided functions: DO NOT MODIFY --------------------------

@@ -2,48 +2,59 @@
 #include <iostream>
 
 // Task 4.1
-Order::Order(){
+Order::Order() : orderId(0), currentNum(0){
+    for(int i = 0; i < 10; i++) {
+        orderedItems[i] = Food();
+    }
+    buyer = Buyer();
 
 }
 
 // Task 4.2
 const Buyer& Order::getBuyer() const {
-
+    return buyer;
 }
 
 // Task 4.3
 int Order::getcurrentNum() const {
-
+    return currentNum;
 }
 
 // Task 4.4
 void Order::setOrderId(int newId){
-
+    orderId = newId;
 }
 
 // Task 4.5
 int Order::getOrderId() const {
-
+    return orderId;
 }
 
 // Task 4.6
 void Order::setBuyer(int newBuyerId, string newBuyerName){
-
+    buyer = Buyer(newBuyerId, newBuyerName);
 }
 
 // Task 4.7
 bool Order::addItem(const Food& item) {
-
+    if (currentNum != 10) {
+        orderedItems[currentNum++] = item;
+    }
 // ---------------------- provided code: DO NOT MODIFY --------------------------
-else {
-    cout << "Order is full, cannot add more items.\n";
-    return false; 
-  }
+    else {
+        cout << "Order is full, cannot add more items.\n";
+        return false;
+      }
 }
 
 // Task 4.8
 void Order::cloneOrder(const Order& other) {
-
+    currentNum = other.getcurrentNum();
+    orderId = other.getOrderId();
+    for (int i = 0; i < other.getcurrentNum(); i++) {
+        orderedItems[i] = other.orderedItems[i];
+    }
+    buyer = other.getBuyer();
 }
 
 // ---------------------- provided functions: DO NOT MODIFY --------------------------

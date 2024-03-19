@@ -74,55 +74,67 @@ build playground.exe: CXX_EXECUTABLE_LINKER__playground_Debug CMakeFiles/playgro
   TARGET_PDB = playground.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab4
+# Object build statements for EXECUTABLE target pa1
 
 
 #############################################
-# Order-only phony target for lab4
+# Order-only phony target for pa1
 
-build cmake_object_order_depends_target_lab4: phony || CMakeFiles/lab4.dir
+build cmake_object_order_depends_target_pa1: phony || CMakeFiles/pa1.dir
 
-build CMakeFiles/lab4.dir/Lab/Lab4/main.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/main.cpp || cmake_object_order_depends_target_lab4
-  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\main.cpp.obj.d
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/Buyer.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\Buyer.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
 
-build CMakeFiles/lab4.dir/Lab/Lab4/MemberOrder.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/MemberOrder.cpp || cmake_object_order_depends_target_lab4
-  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\MemberOrder.cpp.obj.d
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/Food.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\Food.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
 
-build CMakeFiles/lab4.dir/Lab/Lab4/OrdinaryOrder.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/OrdinaryOrder.cpp || cmake_object_order_depends_target_lab4
-  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\OrdinaryOrder.cpp.obj.d
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/main.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
 
-build CMakeFiles/lab4.dir/Lab/Lab4/ProductCollection.cpp.obj: CXX_COMPILER__lab4_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/Lab/Lab4/ProductCollection.cpp || cmake_object_order_depends_target_lab4
-  DEP_FILE = CMakeFiles\lab4.dir\Lab\Lab4\ProductCollection.cpp.obj.d
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/Menu.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab4.dir\Lab\Lab4
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
+
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/Order.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\Order.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
+
+build CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.obj: CXX_COMPILER__pa1_unscanned_Debug C$:/Users/The_J/OneDrive$ -$ HKUST$ Connect/HKUST/Yr2$ Spring/Comp2012/code/comp2012/programmingAssignment/PA1/OrderList.cpp || cmake_object_order_depends_target_pa1
+  DEP_FILE = CMakeFiles\pa1.dir\programmingAssignment\PA1\OrderList.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pa1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pa1.dir\programmingAssignment\PA1
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab4
+# Link build statements for EXECUTABLE target pa1
 
 
 #############################################
-# Link the executable lab4.exe
+# Link the executable pa1.exe
 
-build lab4.exe: CXX_EXECUTABLE_LINKER__lab4_Debug CMakeFiles/lab4.dir/Lab/Lab4/main.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/MemberOrder.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/OrdinaryOrder.cpp.obj CMakeFiles/lab4.dir/Lab/Lab4/ProductCollection.cpp.obj
+build pa1.exe: CXX_EXECUTABLE_LINKER__pa1_Debug CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.obj CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.obj CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.obj CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.obj CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.obj CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab4.dir
+  OBJECT_DIR = CMakeFiles\pa1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = lab4.exe
-  TARGET_IMPLIB = liblab4.dll.a
-  TARGET_PDB = lab4.exe.dbg
+  TARGET_FILE = pa1.exe
+  TARGET_IMPLIB = libpa1.dll.a
+  TARGET_PDB = pa1.exe.dbg
 
 
 #############################################
@@ -150,7 +162,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build lab4: phony lab4.exe
+build pa1: phony pa1.exe
 
 build playground: phony playground.exe
 
@@ -162,7 +174,7 @@ build playground: phony playground.exe
 #############################################
 # Folder: C:/Users/The_J/OneDrive - HKUST Connect/HKUST/Yr2 Spring/Comp2012/code/comp2012/cmake-build-debug
 
-build all: phony playground.exe lab4.exe
+build all: phony playground.exe pa1.exe
 
 # =============================================================================
 # Built-in targets
