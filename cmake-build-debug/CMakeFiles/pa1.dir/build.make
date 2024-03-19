@@ -97,19 +97,19 @@ CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/Food.cpp -o CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.s
 
-CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o: CMakeFiles/pa1.dir/flags.make
-CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o: /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp
-CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o: CMakeFiles/pa1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o -MF CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o.d -o CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o -c /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp
+CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o: CMakeFiles/pa1.dir/flags.make
+CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o: /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp
+CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o: CMakeFiles/pa1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Juno/Documents/GitHub/comp2012/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o -MF CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o.d -o CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o -c /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp
 
-CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp > CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.i
+CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp > CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.i
 
-CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp -o CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.s
+CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp -o CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.s
 
 CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o: CMakeFiles/pa1.dir/flags.make
 CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o: /Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/Menu.cpp
@@ -157,7 +157,7 @@ CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.s: cmake_force
 pa1_OBJECTS = \
 "CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.o" \
 "CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.o" \
-"CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o" \
+"CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o" \
 "CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o" \
 "CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o" \
 "CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o"
@@ -167,7 +167,7 @@ pa1_EXTERNAL_OBJECTS =
 
 pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/Buyer.cpp.o
 pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/Food.cpp.o
-pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o
+pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o
 pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o
 pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o
 pa1: CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o

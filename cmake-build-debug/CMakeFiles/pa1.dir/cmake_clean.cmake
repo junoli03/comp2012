@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o.d"
   "CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o"
   "CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o.d"
-  "CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o"
-  "CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o.d"
+  "CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o"
+  "CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o.d"
   "pa1"
   "pa1.pdb"
 )

@@ -32,6 +32,8 @@ int Order::getOrderId() const {
 
 // Task 4.6
 void Order::setBuyer(int newBuyerId, string newBuyerName){
+//    cout << newBuyerId << endl;
+//    cout << newBuyerName << endl;
     buyer = Buyer(newBuyerId, newBuyerName);
 }
 
@@ -51,11 +53,9 @@ bool Order::addItem(const Food& item) {
 // Task 4.8
 void Order::cloneOrder(const Order& other) {
     currentNum = other.getcurrentNum();
-    orderId = other.getOrderId();
     for (int i = 0; i < other.getcurrentNum(); i++) {
         orderedItems[i] = other.orderedItems[i];
     }
-    buyer = other.getBuyer();
 }
 
 // ---------------------- provided functions: DO NOT MODIFY --------------------------

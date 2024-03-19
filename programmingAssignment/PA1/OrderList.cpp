@@ -11,7 +11,7 @@ OrderList::OrderList() {
 // Task 5.2
 OrderList::~OrderList() {
     OrderNode* current = head;
-    while(current->next != nullptr) {
+    while(current != nullptr) {
         OrderNode* temp = current;
         current = current->next;
         delete temp;
@@ -62,10 +62,10 @@ bool OrderList::removeOrder(int orderId) {
 // Task 5.5
 Order* OrderList::findOrder(int orderId) const {
     OrderNode* temp = head;
-    while(temp->order.getOrderId() != orderId && temp->next != nullptr) {
+    while(temp->order.getOrderId() != orderId && temp != nullptr) {
         temp = temp->next;
     }
-    if (temp->next != nullptr) {
+    if (temp != nullptr) {
         return &temp->order;
     } else {
         return nullptr;
@@ -88,8 +88,9 @@ void OrderList::displayOrderList() const {
 
 // ------------Write your code here to complete this task-----------------
     OrderNode* temp  = head;
-    while(temp->next != nullptr) {
+    while(temp != nullptr) {
         temp->order.displayOrder();
+        temp = temp->next;
     }
 }
 
@@ -99,10 +100,10 @@ void OrderList::displayOrdersForBuyer(int buyerId) const {
 // ------------Write your code here to complete this task-----------------
     bool found = false;
     OrderNode* temp = head;
-    while(temp->buyer.getBuyerId() != buyerId && temp->next != nullptr) {
+    while(temp->buyer.getBuyerId() != buyerId && temp != nullptr) {
         temp = temp->next;
     }
-    if (temp->next != nullptr) {
+    if (temp != nullptr) {
         temp->order.displayOrder();
         found = true;
     }

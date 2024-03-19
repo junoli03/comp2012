@@ -155,7 +155,7 @@
 		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/OrderList.h">
 			<Option target="pa1"/>
 		</Unit>
-		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp">
+		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp">
 			<Option target="pa1"/>
 		</Unit>
 		<Unit filename="/Users/Juno/Documents/GitHub/comp2012/CMakeLists.txt">

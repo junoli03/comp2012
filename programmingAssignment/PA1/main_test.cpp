@@ -337,7 +337,7 @@ int main() {
 
                 std::cout << "Enter your name: ";
                 std::cin >> buyerName;
-                buyerId = buyerIDCounter++; 
+                buyerId = buyerIDCounter++;
                 secondOrder.setBuyer(buyerId, buyerName);
                 secondOrder.setOrderId(orderIdCounter++);
                 std::cout << "Please enter the Order Id you want to copy: ";

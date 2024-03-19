@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/Menu.cpp" "CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o" "gcc" "CMakeFiles/pa1.dir/programmingAssignment/PA1/Menu.cpp.o.d"
   "/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/Order.cpp" "CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o" "gcc" "CMakeFiles/pa1.dir/programmingAssignment/PA1/Order.cpp.o.d"
   "/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/OrderList.cpp" "CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o" "gcc" "CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.o.d"
-  "/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main.cpp" "CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o" "gcc" "CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o.d"
+  "/Users/Juno/Documents/GitHub/comp2012/programmingAssignment/PA1/main_test.cpp" "CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o" "gcc" "CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o.d"
   )
 
 # Targets to which this target links.

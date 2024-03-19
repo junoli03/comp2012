@@ -286,29 +286,29 @@ programmingAssignment/PA1/OrderList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/OrderList.cpp.s
 .PHONY : programmingAssignment/PA1/OrderList.cpp.s
 
-programmingAssignment/PA1/main.o: programmingAssignment/PA1/main.cpp.o
-.PHONY : programmingAssignment/PA1/main.o
+programmingAssignment/PA1/main_test.o: programmingAssignment/PA1/main_test.cpp.o
+.PHONY : programmingAssignment/PA1/main_test.o
 
 # target to build an object file
-programmingAssignment/PA1/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.o
-.PHONY : programmingAssignment/PA1/main.cpp.o
+programmingAssignment/PA1/main_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.o
+.PHONY : programmingAssignment/PA1/main_test.cpp.o
 
-programmingAssignment/PA1/main.i: programmingAssignment/PA1/main.cpp.i
-.PHONY : programmingAssignment/PA1/main.i
+programmingAssignment/PA1/main_test.i: programmingAssignment/PA1/main_test.cpp.i
+.PHONY : programmingAssignment/PA1/main_test.i
 
 # target to preprocess a source file
-programmingAssignment/PA1/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.i
-.PHONY : programmingAssignment/PA1/main.cpp.i
+programmingAssignment/PA1/main_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.i
+.PHONY : programmingAssignment/PA1/main_test.cpp.i
 
-programmingAssignment/PA1/main.s: programmingAssignment/PA1/main.cpp.s
-.PHONY : programmingAssignment/PA1/main.s
+programmingAssignment/PA1/main_test.s: programmingAssignment/PA1/main_test.cpp.s
+.PHONY : programmingAssignment/PA1/main_test.s
 
 # target to generate assembly for a file
-programmingAssignment/PA1/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main.cpp.s
-.PHONY : programmingAssignment/PA1/main.cpp.s
+programmingAssignment/PA1/main_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pa1.dir/build.make CMakeFiles/pa1.dir/programmingAssignment/PA1/main_test.cpp.s
+.PHONY : programmingAssignment/PA1/main_test.cpp.s
 
 # Help Target
 help:
@@ -338,9 +338,9 @@ help:
 	@echo "... programmingAssignment/PA1/OrderList.o"
 	@echo "... programmingAssignment/PA1/OrderList.i"
 	@echo "... programmingAssignment/PA1/OrderList.s"
-	@echo "... programmingAssignment/PA1/main.o"
-	@echo "... programmingAssignment/PA1/main.i"
-	@echo "... programmingAssignment/PA1/main.s"
+	@echo "... programmingAssignment/PA1/main_test.o"
+	@echo "... programmingAssignment/PA1/main_test.i"
+	@echo "... programmingAssignment/PA1/main_test.s"
 .PHONY : help
 
 
