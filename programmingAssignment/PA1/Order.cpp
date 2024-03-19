@@ -39,6 +39,7 @@ void Order::setBuyer(int newBuyerId, string newBuyerName){
 bool Order::addItem(const Food& item) {
     if (currentNum != 10) {
         orderedItems[currentNum++] = item;
+        return true;
     }
 // ---------------------- provided code: DO NOT MODIFY --------------------------
     else {

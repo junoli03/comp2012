@@ -32,8 +32,10 @@ bool Menu::removeFood(int id) {
             }
             nextFoodId = foodItems[found].getFoodId();
             currentSize--;
+            return true;
         }
     }
+    return false;
 }
 
 // Task 3.5

@@ -10,7 +10,12 @@ OrderList::OrderList() {
 
 // Task 5.2
 OrderList::~OrderList() {
-
+    OrderNode* current = head;
+    while(current->next != nullptr) {
+        OrderNode* temp = current;
+        current = current->next;
+        delete temp;
+    }
 }
 
 // Task 5.3
