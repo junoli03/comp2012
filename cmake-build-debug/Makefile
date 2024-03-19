@@ -130,6 +130,19 @@ playground/fast:
 .PHONY : playground/fast
 
 #=============================================================================
+# Target rules for targets named p61
+
+# Build rule for target.
+p61: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p61
+.PHONY : p61
+
+# fast build rule for target.
+p61/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/build
+.PHONY : p61/fast
+
+#=============================================================================
 # Target rules for targets named lab3
 
 # Build rule for target.
@@ -141,6 +154,30 @@ lab3: cmake_check_build_system
 lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
 .PHONY : lab3/fast
+
+Construction_destruction/p61.o: Construction_destruction/p61.cpp.o
+.PHONY : Construction_destruction/p61.o
+
+# target to build an object file
+Construction_destruction/p61.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.o
+.PHONY : Construction_destruction/p61.cpp.o
+
+Construction_destruction/p61.i: Construction_destruction/p61.cpp.i
+.PHONY : Construction_destruction/p61.i
+
+# target to preprocess a source file
+Construction_destruction/p61.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.i
+.PHONY : Construction_destruction/p61.cpp.i
+
+Construction_destruction/p61.s: Construction_destruction/p61.cpp.s
+.PHONY : Construction_destruction/p61.s
+
+# target to generate assembly for a file
+Construction_destruction/p61.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p61.dir/build.make CMakeFiles/p61.dir/Construction_destruction/p61.cpp.s
+.PHONY : Construction_destruction/p61.cpp.s
 
 Lab/Lab3/main.o: Lab/Lab3/main.cpp.o
 .PHONY : Lab/Lab3/main.o
@@ -295,7 +332,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab3"
+	@echo "... p61"
 	@echo "... playground"
+	@echo "... Construction_destruction/p61.o"
+	@echo "... Construction_destruction/p61.i"
+	@echo "... Construction_destruction/p61.s"
 	@echo "... Lab/Lab3/main.o"
 	@echo "... Lab/Lab3/main.i"
 	@echo "... Lab/Lab3/main.s"

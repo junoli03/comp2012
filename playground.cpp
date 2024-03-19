@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <iostream>
 using namespace std;
 
 class A{
@@ -13,3 +14,9 @@ public:
 
 int main()
 {
+    A AA;
+    A bb =A();
+    cout << "juju" << endl;
+    AA = A();
+    return 0;
+}
