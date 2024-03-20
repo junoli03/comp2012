@@ -18,6 +18,8 @@ void Menu::addFood(const Food& food) {
     if (!isFull()) {
         foodItems[currentSize++] = food;
         nextFoodId++;
+    } else {
+        resizeArray();
     }
 
 }
